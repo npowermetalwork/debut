@@ -1,6 +1,7 @@
 {
   "current": {
     "color_sale_text": "#fb6500",
+    "color_button": "#fb6500",
     "predictive_search_show_price": true,
     "social_twitter_link": "#",
     "social_facebook_link": "#",
