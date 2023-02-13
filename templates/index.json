@@ -1,10 +1,48 @@
 {
   "sections": {
+    "00819fbf-a090-4709-b510-3158b229c341": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17645432865036__00819fbf-a090-4709-b510-3158b229c341-1676314647c1f84b1a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-pick-up-truck-on-the-desert-dunes-under-a-blue-sky.jpg",
+            "alignment": "right top",
+            "slide_title": "Image slide",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "LOJA",
+            "button_link": "https:\/\/npower.pt\/#"
+          }
+        },
+        "template--17645432865036__00819fbf-a090-4709-b510-3158b229c341-1676314647c1f84b1a-1": {
+          "type": "image",
+          "settings": {
+            "alignment": "center center",
+            "slide_title": "Image slide",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17645432865036__00819fbf-a090-4709-b510-3158b229c341-1676314647c1f84b1a-0",
+        "template--17645432865036__00819fbf-a090-4709-b510-3158b229c341-1676314647c1f84b1a-1"
+      ],
+      "settings": {
+        "slideshow_height": "medium",
+        "text_size": "medium",
+        "text_alignment": "center center",
+        "show_overlay": true,
+        "autorotate": false,
+        "autorotate_speed": 5
+      }
+    },
     "hero-1": {
       "type": "hero",
       "settings": {
         "image": "shopify:\/\/shop_images\/a-pick-up-truck-on-the-desert-dunes-under-a-blue-sky.jpg",
-        "alignment": "center",
+        "alignment": "top",
         "hero_layout": "full_width",
         "hero_size": "large",
         "text_size": "large",
@@ -182,62 +220,16 @@
       "settings": {
         "section_height": "small"
       }
-    },
-    "6f94c4eb-c37e-45e4-a379-818c400d69e9": {
-      "type": "image-bar",
-      "blocks": {
-        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-0": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        },
-        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-1": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        },
-        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-2": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        },
-        "1f4429cd-ed23-4143-84f7-f35320ce6f69": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-0",
-        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-1",
-        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-2",
-        "1f4429cd-ed23-4143-84f7-f35320ce6f69"
-      ],
-      "settings": {
-        "section_height": "small"
-      }
     }
   },
   "order": [
+    "00819fbf-a090-4709-b510-3158b229c341",
     "hero-1",
     "feature-row",
     "feature-columns",
     "collection",
     "hero-2",
     "quotes",
-    "image-bar",
-    "6f94c4eb-c37e-45e4-a379-818c400d69e9"
+    "image-bar"
   ]
 }
