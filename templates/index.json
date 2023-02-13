@@ -3,13 +3,24 @@
     "hero-1": {
       "type": "hero",
       "settings": {
+        "alignment": "center",
+        "hero_layout": "full_width",
         "hero_size": "large",
-        "text_size": "large"
+        "text_size": "large",
+        "title": "Image with text overlay",
+        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "button_label": "",
+        "button_link": ""
       }
     },
     "feature-row": {
       "type": "feature-row",
       "settings": {
+        "layout": "left",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_label": "",
+        "button_link": ""
       }
     },
     "feature-columns": {
@@ -18,38 +29,77 @@
         "feature-columns-0": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
         "feature-columns-1": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
         "feature-columns-2": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "5a11bca1-c581-4a94-b26c-e9ad35d44479": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
         "feature-columns-0",
         "feature-columns-1",
-        "feature-columns-2"
+        "feature-columns-2",
+        "5a11bca1-c581-4a94-b26c-e9ad35d44479"
       ],
       "settings": {
-        "title": ""
+        "title": "",
+        "align_text": "left"
       }
     },
     "collection": {
       "type": "collection",
       "settings": {
-        "grid": 4
+        "title": "Featured collection",
+        "collection": "",
+        "grid": 4,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
       }
     },
     "hero-2": {
       "type": "hero",
       "settings": {
-        "text_size": "large"
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "medium",
+        "text_size": "large",
+        "title": "Image with text overlay",
+        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "button_label": "",
+        "button_link": ""
       }
     },
     "quotes": {
@@ -58,16 +108,22 @@
         "quotes-0": {
           "type": "quote",
           "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
           }
         },
         "quotes-1": {
           "type": "quote",
           "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
           }
         },
         "quotes-2": {
           "type": "quote",
           "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
           }
         }
       },
@@ -86,25 +142,90 @@
         "image-bar-0": {
           "type": "image",
           "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
           }
         },
         "image-bar-1": {
           "type": "image",
           "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
           }
         },
         "image-bar-2": {
           "type": "image",
           "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        },
+        "f216fd80-e0b2-4cf8-a119-38ab42bcb245": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
           }
         }
       },
       "block_order": [
         "image-bar-0",
         "image-bar-1",
-        "image-bar-2"
+        "image-bar-2",
+        "f216fd80-e0b2-4cf8-a119-38ab42bcb245"
       ],
       "settings": {
+        "section_height": "small"
+      }
+    },
+    "6f94c4eb-c37e-45e4-a379-818c400d69e9": {
+      "type": "image-bar",
+      "blocks": {
+        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-0": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        },
+        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-1": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        },
+        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-2": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        },
+        "1f4429cd-ed23-4143-84f7-f35320ce6f69": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-0",
+        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-1",
+        "template--17645432865036__6f94c4eb-c37e-45e4-a379-818c400d69e9-1676314366069922e0-2",
+        "1f4429cd-ed23-4143-84f7-f35320ce6f69"
+      ],
+      "settings": {
+        "section_height": "small"
       }
     }
   },
@@ -115,6 +236,7 @@
     "collection",
     "hero-2",
     "quotes",
-    "image-bar"
+    "image-bar",
+    "6f94c4eb-c37e-45e4-a379-818c400d69e9"
   ]
 }
